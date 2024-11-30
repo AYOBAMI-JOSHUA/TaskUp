@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskUp.todo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+    <script src="js/hamburger.js" defer></script>
+</head>
+
+<body style="background-image: url('img/man8.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+    <header>
+        <div class="containers">
+            <div id="branding">
+                <img src="icons/Tulogo.png" alt="">
+            </div>
+            
+            <nav>
+                <ul class="go">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="todo.html">TASK</a></li>
+                    <li><a href="note.html">NOTE</a></li>
+                    <li class="current"><a href="login.html">LOG IN</a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="bre">
+            <div id="branding">
+                <img src="icons/Tulogo.png" alt="">
+            </div>
+            
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="off-screen-menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="todo.html">TASK</a></li>
+                <li><a href="note.html">NOTE</a></li>
+                <li><a href="login.html">LOG IN</a></li>
+                <div id="branding">
+                    <img src="icons/Tulogo.png" alt="">
+                </div>
+            </ul>
+        </div>
+
+        <section class="body">
+            <div class="wrapper">
+                <h2>Welcome</h2>
+                <img src="img/man81.png" alt="">
+                <form action="">
+                    <input id="todo-input" type="text" placeholder="write to add..." autocomplete="off">
+                    <button id="add-button"><span class="adds">ADD TASK</span><span class="plus">+</span></button>
+                </form>
+                <ul id="todo-list">
+                    <!-- <li class="todo">
+                        <input type="checkbox" id="todo-1">
+                        <label class="custom-checkbox" for="todo-1">
+                            <svg fill="transparent" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/>
+                            </svg>
+                        </label>
+                        <label for="todo-1" class="todo-text">
+                            webdev project with html, css amd java
+                        </label>
+                        <button class="delete-button">
+                            <svg fill="var(--secondary-color)" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="todo">
+                        <input type="checkbox" id="todo-2">
+                        <label class="custom-checkbox" for="todo-2">
+                            <svg fill="transparent" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/>
+                            </svg>
+                        </label>
+                        <label for="todo-2" class="todo-text">
+                            go to the gym
+                        </label>
+                        <button class="delete-button">
+                            <svg fill="var(--secondary-color)" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/>
+                            </svg>
+                        </button>
+                    </li> -->
+                </ul>
+            </div>
+            <a class="bulls"  href="note.html"><button class="button_1">Would you like to take notes &nbsp <span class="arrow">&nbsp &#8594</span></button></a>
+            <a class="bull" href="note.html"><button class="button_1">Take notes  <span class="arrow">&nbsp &#8594</span></button></a>
+        </section>
+    </main>
+</body>
+
+</html>
